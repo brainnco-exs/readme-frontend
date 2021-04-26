@@ -24,6 +24,7 @@ O objetivo é construir uma **aplicação web front-end** que mostre os **Result
 - Todos esses sorteios estarão em um combo-box/select
 - Ao mudar esse combo-box, terá que mudar o **tema do sorteio**, **números** e **data**
 - A aplicação terá que ser responsiva, pelo menos para celulares, conforme layout
+- O consumo da API pode ser feito via REST ou GraphQL
 - Criar rotas com React Router DOM (opcional)
 
 ### Tecnologias esperadas
