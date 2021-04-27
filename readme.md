@@ -1,6 +1,6 @@
 # Exercício de Front-end
 
-<img src="https://user-images.githubusercontent.com/2853428/114039266-fcc14280-9858-11eb-9095-258683b1c00e.png">
+<img src="https://user-images.githubusercontent.com/2853428/116301437-65c01a00-a776-11eb-9ae8-7d6d9cf3d128.png">
 
 ## Introdução
 
