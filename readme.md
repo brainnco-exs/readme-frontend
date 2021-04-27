@@ -15,8 +15,8 @@ O objetivo é construir uma **aplicação web front-end** que mostre os **Result
 ### Recursos
 
 - Layout: https://www.figma.com/file/H2qrYBCFMf4didYmxRwTxP/Brainn-Frontend-Challenge
-- API: https://brainn-api-loterias.herokuapp.com/
-- Tipografia (webfont): [MontSerrat](https://fonts.google.com/specimen/Montserrat)
+- API: https://brainn-api-loterias.herokuapp.com
+- Tipografia (webfont): [Montserrat](https://fonts.google.com/specimen/Montserrat)
 
 ### Requisitos & Funcionalidades
 
