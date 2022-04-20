@@ -36,7 +36,7 @@ O objetivo é construir uma **aplicação web front-end** que mostre os **Result
 
 ## Dúvidas
 
-Se você possui alguma dúvida sobre o desafio, você pode entrar em contato por e-mail com o recrutamento que já estará acompanhando seu processo ou através do e-mail diogo@brainn.co.
+Se você possui alguma dúvida sobre o desafio, você pode entrar em contato por e-mail com o recrutamento que já estará acompanhando seu processo ou através do e-mail mariana@brainn.co.
 
 <br>
 
@@ -48,4 +48,4 @@ Basta sinalizar por e-mail que finalizou o exercício para darmos continuidade a
 
 #### → Ainda não está participando do processo
 
-Basta enviar o link do seu teste para diogo@brainn.co para quem sabe chamarmos você para um bate-papo 😊
+Basta enviar o link do seu teste para mariana@brainn.co para quem sabe chamarmos você para um bate-papo 😊
