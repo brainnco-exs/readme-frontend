@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --color-megasena: #6befa3;
+  --color-quina: #8666ef;
+  --color-lotofacil: #dd7ac6;
+  --color-lotomania: #ffab64;
+  --color-timemania: #5aad7d;
+  --color-diaDeSorte: #bfaf83;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  left: 0%;
+  right: 61.69%;
+  top: 0%;
+  bottom: 0%;
+  background-color: var(--color-megasena);
+  padding: 95px 95px;
+}
+
+.options {
+  border-radius: 7px;
+  padding: 7px 13px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+  background: #ffffff;
+}
