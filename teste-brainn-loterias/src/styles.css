@@ -1,3 +1,156 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --color-megasena: #6befa3;
+  --color-quina: #8666ef;
+  --color-lotofacil: #dd7ac6;
+  --color-lotomania: #ffab64;
+  --color-timemania: #5aad7d;
+  --color-diaDeSorte: #bfaf83;
+  --color-white: #ffffff;
+  --color-background: #efefef;
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3.5rem;
+  background-color: var(--color-megasena);
+  width: 40%;
+  height: 100vh;
+}
+
+.options {
+  width: 215px;
+  height: 45px;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name img {
+  width: 3rem;
+  height: auto;
+}
+
+.logo-name p {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--color-white);
+  padding: 0.7rem;
+}
+
+.date p {
+  color: var(--color-white);
+}
+
+.concurso {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.NConcurso {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+  width: 70%;
+  height: 100vh;
+  background-color: var(--color-background);
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.numbers p {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 2rem;
+  border-radius: 50%;
+  margin: 1rem;
+  background-color: var(--color-white);
+}
+
+.notice {
+  font-size: 14px;
+}
+
+/* QUINA */
+
+/* .quina {
+  background-color: var(--color-quina);
+} */
+
+/* LOTOFÁCIL */
+
+/* .lotofacil {
+  background-color: var(--color-lotofacil);
+} */
+
+/* .loto-number p {
+  padding: 1.7rem;
+} */
+
+/* DIA DE SORTE */
+
+/* .diaDeSorte {
+  background-color: var(--color-diaDeSorte);
+} */
+
+/* LOTOMANIA */
+
+/* .lotomania {
+  background-color: var(--color-lotomania);
+} */
+
+/* TIMEMANIA */
+
+/* .timemania {
+  background-color: var(--color-timemania);
+} */
+
+/* .time-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+/* .time {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 700;
+} */
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,700&display=swap");
 
 * {
@@ -14,28 +167,130 @@
   --color-lotomania: #ffab64;
   --color-timemania: #5aad7d;
   --color-diaDeSorte: #bfaf83;
+  --color-white: #ffffff;
+  --color-background: #efefef;
+}
+
+.container {
+  display: flex;
 }
 
 .left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: absolute;
-  left: 0%;
-  right: 61.69%;
-  top: 0%;
-  bottom: 0%;
-  background-color: var(--color-megasena);
-  padding: 95px 95px;
+  padding: 3.5rem;
+  width: 40%;
+  height: 100vh;
 }
 
 .options {
-  border-radius: 7px;
-  padding: 7px 13px;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
+  width: 215px;
+  height: 45px;
   font-weight: 500;
   font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
   border: none;
-  background: #ffffff;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name img {
+  width: 3rem;
+  height: auto;
+}
+
+.logo-name p {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--color-white);
+  padding: 0.7rem;
+}
+
+.date p {
+  color: var(--color-white);
+}
+
+.concurso {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.NConcurso {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+  width: 70%;
+  height: 100vh;
+  background-color: var(--color-background);
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.numbers p {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 2rem;
+  border-radius: 50%;
+  margin: 1rem;
+  background-color: var(--color-white);
+}
+
+.notice {
+  font-size: 14px;
+}
+
+/* Lottery Types */
+
+.megasena {
+  background-color: var(--color-megasena);
+}
+
+.quina {
+  background-color: var(--color-quina);
+}
+
+.lotofacil {
+  background-color: var(--color-lotofacil);
+}
+
+.lotomania {
+  background-color: var(--color-lotomania);
+}
+
+.timemania {
+  background-color: var(--color-timemania);
+}
+
+.diaDeSorte {
+  background-color: var(--color-diaDeSorte);
+}
+
+.time-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 700;
 }

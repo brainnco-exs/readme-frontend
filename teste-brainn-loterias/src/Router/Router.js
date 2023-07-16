@@ -1,15 +1,28 @@
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
-import MegaSena from "../Pages/Megasena";
+import React from "react";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useParams,
+  Navigate,
+} from "react-router-dom";
+import LotteryPage from "../Pages/LotteryPage";
 
 const Router = () => {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path={"/"} element={<MegaSena />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navigate to="/megasena" replace />} />
+        <Route path="/:lotteryType" element={<LotteryPageWrapper />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
+
+const LotteryPageWrapper = () => {
+  const { lotteryType } = useParams();
+
+  return <LotteryPage lotteryType={lotteryType} />;
+};
+
 export default Router;
