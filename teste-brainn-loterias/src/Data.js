@@ -65,7 +65,7 @@ export const lotteryData = {
     numero_concurso: 2763,
     data_concurso: "14/03/2023",
     dezenas: ["01", "13", "17", "34", "35", "40", "43"],
-    time: "GRÊMIO/RS",
+    time: "GOIAS/GO",
   },
   diadesorte: {
     nome: "DIA DE SORTE",

@@ -19,7 +19,7 @@ const LotteryPage = () => {
         <div>
           <select
             id="options-loterias"
-            className="options"
+            className="options custom-select"
             value={lotteryType}
             onChange={(event) => {
               const selectedLotteryType = event.target.value;
@@ -46,17 +46,16 @@ const LotteryPage = () => {
       </div>
 
       <div className="right">
-        {lotteryType === "timemania" && (
-          <div className="time-info">
-            <p className="time">{time}</p>
-          </div>
-        )}
+        <div className="time-info">
+          <p className="time">{time}</p>
+        </div>
 
         <div className="numbers">
           {dezenas.map((num, index) => (
             <p key={index}>{num}</p>
           ))}
         </div>
+
         <p className="notice">
           Este sorteio é meramente ilustrativo e não possui nenhuma ligação com
           a CAIXA.
