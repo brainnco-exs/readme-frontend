@@ -4,7 +4,6 @@ import { lotteryData } from "../Data";
 
 const LotteryPage = () => {
   const { lotteryType } = useParams();
-  console.log("lotteryType:", lotteryType);
   const lottery = lotteryData[lotteryType.toLowerCase()];
 
   if (!lottery) {
