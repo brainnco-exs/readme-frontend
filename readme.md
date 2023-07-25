@@ -1,8 +1,8 @@
 <h1 align="center"> Loterias Case Brainn Co. </h1>
 <br></br>
 
-![image](![image](https://github.com/GabriellOlliveira99/Case-Brainn-Frontend/assets/98030853/64882030-256e-4586-9b1e-a293aad72534)
-)
+![image](https://github.com/GabriellOlliveira99/Case-Brainn-Frontend/assets/98030853/c0b8ae5c-b20e-4084-96c7-25a2eeec771b)
+
 <br></br>
 
 ## 📋 Introdução
