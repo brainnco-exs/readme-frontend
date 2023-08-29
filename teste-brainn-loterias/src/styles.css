@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --color-megasena: #6befa3;
+  --color-quina: #8666ef;
+  --color-lotofacil: #dd7ac6;
+  --color-lotomania: #ffab64;
+  --color-timemania: #5aad7d;
+  --color-diadesorte: #bfaf83;
+  --color-white: #ffffff;
+  --color-background: #efefef;
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+  width: 40%;
+  height: 100vh;
+}
+
+.options {
+  width: 280px;
+  height: 51px;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 10px;
+  color: #333;
+  border-radius: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.custom-select {
+  appearance: none;
+  background-image: url("../public/assets/arrowDown.png");
+  background-size: 0.5rem;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) center;
+  padding-right: 5rem;
+}
+
+.custom-select::-ms-expand {
+  display: none;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name img {
+  width: 60px;
+  height: auto;
+}
+
+.logo-name p {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--color-white);
+  padding: 0.7rem;
+}
+
+.date p {
+  color: var(--color-white);
+}
+
+.concurso {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.NConcurso {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  width: 70%;
+  height: 100vh;
+  background-color: var(--color-background);
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.numbers p {
+  width: 80px;
+  height: 80px;
+  font-weight: 700;
+  background-color: var(--color-white);
+  color: #333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.notice {
+  font-size: 14px;
+}
+
+/* Lottery Types */
+
+.megasena {
+  background-color: var(--color-megasena);
+}
+
+.quina {
+  background-color: var(--color-quina);
+}
+
+.lotofacil {
+  background-color: var(--color-lotofacil);
+}
+
+.lotomania {
+  background-color: var(--color-lotomania);
+}
+
+.timemania {
+  background-color: var(--color-timemania);
+}
+
+.diadesorte {
+  background-color: var(--color-diadesorte);
+}
+
+.time-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media (min-width: 200px) and (max-width: 891px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .left {
+    width: 100vw;
+    height: 45vh;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .options {
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .logo-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-name img {
+    width: 2rem;
+  }
+
+  .logo-name p {
+    font-size: 25px;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 65vh;
+  }
+
+  .notice {
+    margin-top: 70px;
+    text-align: center;
+  }
+}
